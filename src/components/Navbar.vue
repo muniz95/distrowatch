@@ -15,7 +15,7 @@
       </b-nav-form>
 
       <b-nav is-nav-bar>
-        <b-nav-item href="#">Link</b-nav-item>
+        <b-nav-item :to="{name: 'Distro'}">FreeBSD</b-nav-item>
       </b-nav>
 
       <!-- Right aligned nav items -->
