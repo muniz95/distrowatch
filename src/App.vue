@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Navbar />
-    <b-container>
+    <b-container class="main">
       <router-view></router-view>
     </b-container>
   </div>
@@ -16,5 +16,7 @@ export default {
 </script>
 
 <style>
-
+  .main {
+    margin-top: 15px;
+  }
 </style>

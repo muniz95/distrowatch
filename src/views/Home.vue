@@ -1,14 +1,15 @@
 <template>
   <div>
-    <div>{{title}}</div>
     <b-row>
       <b-col lg='2' md='2'>
+        <span for="">Latest Distros</span>
         <Latest />
       </b-col>
       <b-col lg='8' md='8'>
-        <Latest />
+        <Announcement />
       </b-col>
       <b-col lg='2' md='2'>
+        <span for="">Latest Distros</span>
         <Latest />
       </b-col>
     </b-row>
@@ -17,6 +18,7 @@
 
 <script>
   import Latest from '@/components/Latest'
+  import Announcement from '@/components/Announcement'
   export default {
     name: 'home',
     data () {
@@ -24,6 +26,6 @@
         title: 'Welcome to Distrowatch'
       }
     },
-    components: { Latest }
+    components: { Latest, Announcement }
   }
 </script>
