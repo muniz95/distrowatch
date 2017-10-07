@@ -24,9 +24,9 @@
         <b-nav-item-dropdown text="Main topics" right>
           <b-dropdown-item :to="{name: 'Headlines'}">Headlines</b-dropdown-item>
           <b-dropdown-item :to="{name: 'Weekly'}">DW Weekly</b-dropdown-item>
-          <b-dropdown-item :to="{name: 'Home'}">Comments</b-dropdown-item>
+          <b-dropdown-item disabled>Comments</b-dropdown-item>
           <hr>
-          <b-dropdown-item :to="{name: 'Home'}">Packages</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Packages'}">Packages</b-dropdown-item>
           <b-dropdown-item :to="{name: 'Home'}">Package Management</b-dropdown-item>
           <hr>
           <b-dropdown-item :to="{name: 'Home'}">Glossary</b-dropdown-item>

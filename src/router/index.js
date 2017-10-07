@@ -4,6 +4,7 @@ import Distro from '@/views/Distro'
 import Headlines from '@/views/Headlines'
 import Home from '@/views/Home'
 import Weekly from '@/views/Weekly'
+import Packages from '@/views/Packages'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/weekly',
       name: 'Weekly',
       component: Weekly
+    },
+    {
+      path: '/packages',
+      name: 'Packages',
+      component: Packages
     }
   ]
 })
