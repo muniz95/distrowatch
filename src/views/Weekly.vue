@@ -27,7 +27,7 @@
           <b>{{release.project}}</b>: <span>{{release.content}}</span><br>
         </div>
         <hr>
-        <div class="row" v-for="release in weekly.torrentCorner" :key="release.os">
+        <div class="row torrent-corner" v-for="release in weekly.torrentCorner" :key="release.os">
           <div class='col-lg-3 col-md-3 col-sm-3 col-xs-3'>
             <b>{{release.os}}</b>
           </div>
@@ -35,9 +35,79 @@
             <b>{{release.torrent}}</b>
           </div>
           <div class='col-lg-5 col-md-5 col-sm-5 col-xs-5'>
-            <b>{{release.checksum}}</b>
+            <b>checksum</b>
           </div>
         </div>
+        <hr>
+        <h2 class="text-center">Upcoming releases and schedules</h2>
+        <div class="row" v-for="release in weekly.upcomingReleases" :key="release.distro">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            {{release.date}}: {{release.distro}} <b>{{release.version}}</b>
+          </div>
+        </div>
+        <hr>
+        <h2 class="text-center">Opinion poll</h2>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            Coming soon
+          </div>
+        </div>
+        <hr>
+        <h2 class="text-center">DistroWatch News</h2>
+        <div class="row" v-for="post in weekly.dwNews" :key="post">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h4><b>{{post.title}}</b></h4>
+            <span>{{post.content}}</span>
+          </div>
+        </div>
+        <b>New projects added to the database</b>
+        <div class="row" v-for="post in weekly.newAdditions" :key="post">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h4><b>{{post.title}}</b></h4>
+            <span>{{post.content}}</span>
+          </div>
+        </div>
+        <b>New projects added to the waiting list</b>
+        <div class="row" v-for="post in weekly.newDistributions" :key="post">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <a :href="post.url">{{post.title}}</a>:
+            <span>{{post.content}}</span>
+          </div>
+        </div>
+
+
+        <b>DistroWatch database summary</b>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            Number of all distributions in the database: 874
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            Number of active distributions in the database: 304
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            Number of dormant distributions: 57
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            Number of discontinued distributions: 513
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            Number of distributions on the waiting list: 169
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            Number of distributions waiting for evaluation: 36
+          </div>
+        </div>
+
       </div>
       <div class='col-lg-2 col-md-2 col-sm-2 col-xs-2'>
         <div class="card" style="width: 20rem;" v-for="archive in archives" :key="archive.id">
@@ -48,6 +118,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </template>
@@ -182,6 +253,10 @@
           {
             title: 'Mobile app for getting distro news',
             content: 'For a while now DistroWatch has had a mobile-friendly website. This allows people with smaller screens to check up on the latest news, events and our Weekly newsletter.'
+          },
+          {
+            title: '^',
+            content: 'Just wait...'
           }
         ],
         newAdditions: [
@@ -213,3 +288,9 @@
   }
 
 </script>
+<style>
+  .torrent-corner {
+    font-size: 0.8em;
+  }
+
+</style>
