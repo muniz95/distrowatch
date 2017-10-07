@@ -22,16 +22,16 @@
       <b-nav is-nav-bar class="ml-auto">
 
         <b-nav-item-dropdown text="Main topics" right>
-          <b-dropdown-item href="#">Headlines</b-dropdown-item>
-          <b-dropdown-item href="#">DW Weekly</b-dropdown-item>
-          <b-dropdown-item href="#">Comments</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Headlines'}">Headlines</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Weekly'}">DW Weekly</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Home'}">Comments</b-dropdown-item>
           <hr>
-          <b-dropdown-item href="#">Packages</b-dropdown-item>
-          <b-dropdown-item href="#">Package Management</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Home'}">Packages</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Home'}">Package Management</b-dropdown-item>
           <hr>
-          <b-dropdown-item href="#">Glossary</b-dropdown-item>
-          <b-dropdown-item href="#">FAQ</b-dropdown-item>
-          <b-dropdown-item href="#">Mobile Site</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Home'}">Glossary</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Home'}">FAQ</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Home'}">Mobile Site</b-dropdown-item>
         </b-nav-item-dropdown>
 
         <b-nav-item-dropdown text="Other Stuff" right>

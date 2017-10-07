@@ -17,8 +17,8 @@
 </template>
 
 <script>
-  import Latest from '@/components/Latest'
-  import Announcement from '@/components/Announcement'
+  import Latest from '@/components/home/Latest'
+  import Announcement from '@/components/home/Announcement'
   export default {
     name: 'home',
     data () {
