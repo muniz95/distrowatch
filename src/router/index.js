@@ -5,6 +5,7 @@ import Headlines from '@/views/Headlines'
 import Home from '@/views/Home'
 import Weekly from '@/views/Weekly'
 import Packages from '@/views/Packages'
+import PackageManagement from '@/views/PackageManagement'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/packages',
       name: 'Packages',
       component: Packages
+    },
+    {
+      path: '/package-management',
+      name: 'PackageManagement',
+      component: PackageManagement
     }
   ]
 })
