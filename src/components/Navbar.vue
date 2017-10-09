@@ -29,7 +29,7 @@
           <b-dropdown-item :to="{name: 'Packages'}">Packages</b-dropdown-item>
           <b-dropdown-item :to="{name: 'PackageManagement'}">Package Management</b-dropdown-item>
           <hr>
-          <b-dropdown-item :to="{name: 'Home'}">Glossary</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Glossary'}">Glossary</b-dropdown-item>
           <b-dropdown-item :to="{name: 'Home'}">FAQ</b-dropdown-item>
           <b-dropdown-item :to="{name: 'Home'}">Mobile Site</b-dropdown-item>
         </b-nav-item-dropdown>

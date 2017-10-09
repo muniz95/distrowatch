@@ -1,11 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+
 import Distro from '@/views/Distro'
+import Glossary from '@/views/Glossary'
 import Headlines from '@/views/Headlines'
 import Home from '@/views/Home'
-import Weekly from '@/views/Weekly'
 import Packages from '@/views/Packages'
 import PackageManagement from '@/views/PackageManagement'
+import Weekly from '@/views/Weekly'
 
 Vue.use(Router)
 
@@ -40,6 +42,11 @@ export default new Router({
       path: '/package-management',
       name: 'PackageManagement',
       component: PackageManagement
+    },
+    {
+      path: '/glossary',
+      name: 'Glossary',
+      component: Glossary
     }
   ]
 })
