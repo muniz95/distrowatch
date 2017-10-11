@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import Distro from '@/views/Distro'
+import FAQ from '@/views/FAQ'
 import Glossary from '@/views/Glossary'
 import Headlines from '@/views/Headlines'
 import Home from '@/views/Home'
@@ -47,6 +48,11 @@ export default new Router({
       path: '/glossary',
       name: 'Glossary',
       component: Glossary
+    },
+    {
+      path: '/faq',
+      name: 'FAQ',
+      component: FAQ
     }
   ]
 })
