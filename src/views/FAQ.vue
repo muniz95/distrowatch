@@ -33,7 +33,7 @@
 <script>
   import GlossaryDetails from '@/components/glossary/GlossaryDetails'
   export default {
-    name: 'glossary',
+    name: 'faq',
     components: { GlossaryDetails },
     data () {
       return {
