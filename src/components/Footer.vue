@@ -4,7 +4,7 @@
     <hr>
     <div class="text-center">
       <p>
-        Copyright (C) 2017
+        Copyright (C) 2017 - {{ version }} - 
         <a href="https://muniz95.github.io/">Rodrigo Muniz</a>.
       </p>
       <p>
@@ -22,6 +22,18 @@
 
   </div>
 </template>
+
+<script>
+  export default {
+    name: 'dw-footer',
+    computed: {
+      version () {
+        const { version } = this.$store.state
+        return version
+      }
+    }
+  }
+</script>
 
 <style>
 
