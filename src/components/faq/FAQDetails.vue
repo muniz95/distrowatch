@@ -1,15 +1,15 @@
 <template>
   <div>
-    <div v-if="term.id">
-      <b>{{term.name}}</b>: {{term.description}}
+    <div v-if="question.id">
+      <b>{{question.question}}</b>: {{question.answer}}
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'faq-details',
-  props: ['term']
+  name: 'dw-faq-details',
+  props: ['question']
 }
 </script>
 
