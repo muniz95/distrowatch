@@ -31,7 +31,7 @@
           <hr>
           <b-dropdown-item :to="{name: 'Glossary'}">Glossary</b-dropdown-item>
           <b-dropdown-item :to="{name: 'FAQ'}">FAQ</b-dropdown-item>
-          <b-dropdown-item :to="{name: 'Home'}">Mobile Site</b-dropdown-item>
+          <b-dropdown-item v-on:click="mobile">Mobile Site</b-dropdown-item>
         </b-nav-item-dropdown>
 
         <b-nav-item-dropdown text="Other Stuff" right>
@@ -58,7 +58,12 @@
 
 <script>
   export default {
-    name: 'DwNavbar'
+    name: 'DwNavbar',
+    methods: {
+      mobile () {
+        alert('This is already the mobile site.')
+      }
+    }
   }
 </script>
 
