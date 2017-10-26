@@ -20,7 +20,7 @@
   import Latest from '@/components/home/Latest'
   import Announcement from '@/components/home/Announcement'
   export default {
-    name: 'home',
+    name: 'dw-home',
     data () {
       return {
         title: 'Welcome to Distrowatch'
