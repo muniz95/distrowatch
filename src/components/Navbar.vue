@@ -35,17 +35,17 @@
         </b-nav-item-dropdown>
 
         <b-nav-item-dropdown text="Other Stuff" right>
-          <b-dropdown-item href="#">Sitemap</b-dropdown-item>
-          <b-dropdown-item href="#">Major Distributions</b-dropdown-item>
-          <b-dropdown-item href="#">Submit Distribution</b-dropdown-item>
-          <b-dropdown-item href="#">Upcoming Releases</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Sitemap'}">Sitemap</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Home'}">Major Distributions</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Home'}">Submit Distribution</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Home'}">Upcoming Releases</b-dropdown-item>
         </b-nav-item-dropdown>
 
         <b-nav-item-dropdown text="About" right>
-          <b-dropdown-item href="#">About DistroWatch</b-dropdown-item>
-          <b-dropdown-item href="#">Page Hit Ranking</b-dropdown-item>
-          <b-dropdown-item href="#">Advertise</b-dropdown-item>
-          <b-dropdown-item href="#">CryptoCoin.cc</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Home'}">About DistroWatch</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Home'}">Page Hit Ranking</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Home'}">Advertise</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Home'}">CryptoCoin.cc</b-dropdown-item>
         </b-nav-item-dropdown>
 
       </b-nav>
