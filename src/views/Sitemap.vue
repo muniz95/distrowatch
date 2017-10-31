@@ -15,7 +15,7 @@
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 block">
         <ul>
           <li v-for="link in links" :key="link.id">
-            <span :to="{name: 'Home'}">{{link.title}}</span>
+            <router-link :to="{name: 'Home'}">{{link.title}}</router-link>
           </li>
         </ul>
       </div>
