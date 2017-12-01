@@ -7,6 +7,7 @@ import Glossary from '@/views/Glossary'
 import Headlines from '@/views/Headlines'
 import Home from '@/views/Home'
 import Packages from '@/views/Packages'
+import MajorDistros from '@/views/MajorDistros'
 import PackageManagement from '@/views/PackageManagement'
 import Sitemap from '@/views/Sitemap'
 import Weekly from '@/views/Weekly'
@@ -23,6 +24,7 @@ export default new Router({
     { path: '/package-management', name: 'PackageManagement', component: PackageManagement },
     { path: '/glossary', name: 'Glossary', component: Glossary },
     { path: '/faq', name: 'FAQ', component: FAQ },
-    { path: '/sitemap', name: 'Sitemap', component: Sitemap }
+    { path: '/sitemap', name: 'Sitemap', component: Sitemap },
+    { path: '/major', name: 'MajorDistros', component: MajorDistros }
   ]
 })

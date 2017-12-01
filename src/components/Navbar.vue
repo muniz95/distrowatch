@@ -36,7 +36,7 @@
 
         <b-nav-item-dropdown text="Other Stuff" right>
           <b-dropdown-item :to="{name: 'Sitemap'}">Sitemap</b-dropdown-item>
-          <b-dropdown-item :to="{name: 'Home'}">Major Distributions</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'MajorDistros'}">Major Distributions</b-dropdown-item>
           <b-dropdown-item :to="{name: 'Home'}">Submit Distribution</b-dropdown-item>
           <b-dropdown-item :to="{name: 'Home'}">Upcoming Releases</b-dropdown-item>
         </b-nav-item-dropdown>
