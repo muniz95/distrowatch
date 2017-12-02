@@ -10,6 +10,7 @@ import Packages from '@/views/Packages'
 import MajorDistros from '@/views/MajorDistros'
 import PackageManagement from '@/views/PackageManagement'
 import Sitemap from '@/views/Sitemap'
+import SubmitDistro from '@/views/SubmitDistro'
 import Weekly from '@/views/Weekly'
 
 Vue.use(Router)
@@ -25,6 +26,7 @@ export default new Router({
     { path: '/glossary', name: 'Glossary', component: Glossary },
     { path: '/faq', name: 'FAQ', component: FAQ },
     { path: '/sitemap', name: 'Sitemap', component: Sitemap },
-    { path: '/major', name: 'MajorDistros', component: MajorDistros }
+    { path: '/major', name: 'MajorDistros', component: MajorDistros },
+    { path: '/submit', name: 'SubmitDistro', component: SubmitDistro }
   ]
 })
