@@ -83,8 +83,8 @@
   </div>
 </template>
 <script>
-  export default {
-    name: 'distro-news'
-  }
+export default {
+  name: 'distro-news'
+}
 
 </script>

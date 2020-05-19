@@ -17,15 +17,15 @@
 </template>
 
 <script>
-  import Latest from '@/components/home/Latest'
-  import Announcement from '@/components/home/Announcement'
-  export default {
-    name: 'dw-home',
-    data () {
-      return {
-        title: 'Welcome to Distrowatch'
-      }
-    },
-    components: { Latest, Announcement }
-  }
+import Latest from '@/components/home/Latest'
+import Announcement from '@/components/home/Announcement'
+export default {
+  name: 'dw-home',
+  data () {
+    return {
+      title: 'Welcome to Distrowatch'
+    }
+  },
+  components: { Latest, Announcement }
+}
 </script>

@@ -8,21 +8,21 @@
 </template>
 
 <script>
-  export default {
-    name: 'latest',
-    data () {
-      return {
-        releases: []
-      }
-    },
-    created () {
-      this.releases = [
-        {id: 1, date: '01/01', name: 'Test', version: '1.0.0'},
-        {id: 1, date: '01/01', name: 'Test', version: '1.0.0'},
-        {id: 1, date: '01/01', name: 'Test', version: '1.0.0'},
-        {id: 1, date: '01/01', name: 'Test', version: '1.0.0'},
-        {id: 1, date: '01/01', name: 'Test', version: '1.0.0'}
-      ]
+export default {
+  name: 'latest',
+  data () {
+    return {
+      releases: []
     }
+  },
+  created () {
+    this.releases = [
+      { id: 1, date: '01/01', name: 'Test', version: '1.0.0' },
+      { id: 2, date: '01/01', name: 'Test', version: '1.0.0' },
+      { id: 3, date: '01/01', name: 'Test', version: '1.0.0' },
+      { id: 4, date: '01/01', name: 'Test', version: '1.0.0' },
+      { id: 5, date: '01/01', name: 'Test', version: '1.0.0' }
+    ]
   }
+}
 </script>

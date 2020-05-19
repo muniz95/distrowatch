@@ -59,133 +59,133 @@
 </template>
 
 <script>
-  export default {
-    name: 'packages',
-    data () {
-      return {
-        packages: []
-      }
-    },
-    created () {
-      this.packages = [
-        {
-          name: 'abiword',
-          version: '3.0.2',
-          description: 'AbiWord: a full-featured word processor'
-        },
-        {
-          name: 'AfterStep',
-          version: '2.2.12',
-          description: 'AfterStep: a window manager for X with a NeXT look and feel'
-        },
-        {
-          name: 'alpine',
-          version: '2.20',
-          description: 'Alpine: a text-based MIME email client based on Pine'
-        },
-        {
-          name: 'alsa-lib',
-          version: '1.1.4.1',
-          description: 'alsa-lib: an audio library for use with the ALSA kernel modules'
-        },
-        {
-          name: 'amarok',
-          version: '2.8.0',
-          description: 'Amarok: a music player for Linux and UNIX'
-        },
-        {
-          name: 'apache-tomcat',
-          version: '8.5.23',
-          description: 'apache-tomcat: a Java Servlet and JSP Container'
-        },
-        {
-          name: 'apt',
-          version: '1.5',
-          description: 'APT: a front-end for the dpkg package manager'
-        },
-        {
-          name: 'ati-driver',
-          version: '16.40',
-          description: 'ATI driver: a proprietary Linux display driver for XFree86/X.Org by ATI, the Catalyst series'
-        },
-        {
-          name: 'audacity',
-          version: '2.1.3',
-          description: 'Audacity: a free audio editor'
-        },
-        {
-          name: 'autoconf',
-          version: '2.69',
-          description: 'Autoconf: a package of M4 macros to produce scripts to automatically configure source code'
-        },
-        {
-          name: 'automake',
-          version: '1.15.1',
-          description: 'GNU Automake: a tool for automatically generating Makefiles'
-        },
-        {
-          name: 'avidemux',
-          version: '2.7.0',
-          description: 'Avidemux: a free video editor designed for simple cutting, filtering and encoding tasks'
-        },
-        {
-          name: 'awesome',
-          version: '4.2',
-          description: 'awesome: a configurable window manager for X'
-        },
-        {
-          name: 'banshee',
-          version: '2.6.2',
-          description: 'Banshee: a music management and playback application for GNOME'
-        },
-        {
-          name: 'bash',
-          version: '4.4',
-          description: 'Bash: an sh-compatible command language interpreter'
-        },
-        {
-          name: 'bind',
-          version: '9.11.2',
-          description: 'ISC BIND: an implementation of the Domain Name System (DNS) protocols'
-        },
-        {
-          name: 'binutils',
-          version: '2.29.1',
-          description: 'GNU Binutils: an essential collection of binary utilities'
-        },
-        {
-          name: 'bison',
-          version: '3.0.4',
-          description: 'Bison: a replacement for the parser generator Yacc'
-        },
-        {
-          name: 'bitcoin',
-          version: '0.15.0.1',
-          description: 'Bitcoin: an innovative payment network and a new kind of money'
-        },
-        {
-          name: 'blender',
-          version: '2.79',
-          description: 'Blender: a very fast and versatile 3D modeller and renderer'
-        },
-        {
-          name: 'budgie-desktop',
-          version: '10.4',
-          description: 'Budgie Desktop: a simple desktop environment featuring heavy integration with the GNOME stack'
-        },
-        {
-          name: 'busybox',
-          version: '1.27.2',
-          description: 'BusyBox: a program that combines many common UNIX utilities into a single small executable'
-        },
-        {
-          name: 'bzip2',
-          version: '1.0.6',
-          description: 'bzip2: a free, patent-free, high-quality data compressor'
-        }
-      ]
+export default {
+  name: 'packages',
+  data () {
+    return {
+      packages: []
     }
+  },
+  created () {
+    this.packages = [
+      {
+        name: 'abiword',
+        version: '3.0.2',
+        description: 'AbiWord: a full-featured word processor'
+      },
+      {
+        name: 'AfterStep',
+        version: '2.2.12',
+        description: 'AfterStep: a window manager for X with a NeXT look and feel'
+      },
+      {
+        name: 'alpine',
+        version: '2.20',
+        description: 'Alpine: a text-based MIME email client based on Pine'
+      },
+      {
+        name: 'alsa-lib',
+        version: '1.1.4.1',
+        description: 'alsa-lib: an audio library for use with the ALSA kernel modules'
+      },
+      {
+        name: 'amarok',
+        version: '2.8.0',
+        description: 'Amarok: a music player for Linux and UNIX'
+      },
+      {
+        name: 'apache-tomcat',
+        version: '8.5.23',
+        description: 'apache-tomcat: a Java Servlet and JSP Container'
+      },
+      {
+        name: 'apt',
+        version: '1.5',
+        description: 'APT: a front-end for the dpkg package manager'
+      },
+      {
+        name: 'ati-driver',
+        version: '16.40',
+        description: 'ATI driver: a proprietary Linux display driver for XFree86/X.Org by ATI, the Catalyst series'
+      },
+      {
+        name: 'audacity',
+        version: '2.1.3',
+        description: 'Audacity: a free audio editor'
+      },
+      {
+        name: 'autoconf',
+        version: '2.69',
+        description: 'Autoconf: a package of M4 macros to produce scripts to automatically configure source code'
+      },
+      {
+        name: 'automake',
+        version: '1.15.1',
+        description: 'GNU Automake: a tool for automatically generating Makefiles'
+      },
+      {
+        name: 'avidemux',
+        version: '2.7.0',
+        description: 'Avidemux: a free video editor designed for simple cutting, filtering and encoding tasks'
+      },
+      {
+        name: 'awesome',
+        version: '4.2',
+        description: 'awesome: a configurable window manager for X'
+      },
+      {
+        name: 'banshee',
+        version: '2.6.2',
+        description: 'Banshee: a music management and playback application for GNOME'
+      },
+      {
+        name: 'bash',
+        version: '4.4',
+        description: 'Bash: an sh-compatible command language interpreter'
+      },
+      {
+        name: 'bind',
+        version: '9.11.2',
+        description: 'ISC BIND: an implementation of the Domain Name System (DNS) protocols'
+      },
+      {
+        name: 'binutils',
+        version: '2.29.1',
+        description: 'GNU Binutils: an essential collection of binary utilities'
+      },
+      {
+        name: 'bison',
+        version: '3.0.4',
+        description: 'Bison: a replacement for the parser generator Yacc'
+      },
+      {
+        name: 'bitcoin',
+        version: '0.15.0.1',
+        description: 'Bitcoin: an innovative payment network and a new kind of money'
+      },
+      {
+        name: 'blender',
+        version: '2.79',
+        description: 'Blender: a very fast and versatile 3D modeller and renderer'
+      },
+      {
+        name: 'budgie-desktop',
+        version: '10.4',
+        description: 'Budgie Desktop: a simple desktop environment featuring heavy integration with the GNOME stack'
+      },
+      {
+        name: 'busybox',
+        version: '1.27.2',
+        description: 'BusyBox: a program that combines many common UNIX utilities into a single small executable'
+      },
+      {
+        name: 'bzip2',
+        version: '1.0.6',
+        description: 'bzip2: a free, patent-free, high-quality data compressor'
+      }
+    ]
   }
+}
 
 </script>
 <style>
@@ -197,4 +197,3 @@
   background-color: #F6EDC8 !important;
 }
 </style>
-

@@ -108,8 +108,8 @@
   </div>
 </template>
 <script>
-  export default {
-    name: 'distro-summary'
-  }
+export default {
+  name: 'distro-summary'
+}
 
 </script>

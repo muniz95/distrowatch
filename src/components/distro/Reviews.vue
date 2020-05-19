@@ -135,9 +135,9 @@
   </div>
 </template>
 <script>
-  export default {
-    name: 'distro-reviews'
-  }
+export default {
+  name: 'distro-reviews'
+}
 
 </script>
 <style>
@@ -147,4 +147,3 @@ textarea {
 }
 
 </style>
-
