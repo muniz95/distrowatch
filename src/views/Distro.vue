@@ -35,19 +35,19 @@
   </div>
 </template>
 <script>
-  import DistroSummary from '@/components/distro/Summary'
-  import DistroNews from '@/components/distro/News'
-  import DistroPackages from '@/components/distro/Packages'
-  import DistroReviews from '@/components/distro/Reviews'
-  export default {
-    name: 'distro',
-    data () {
-      return {
-        distro: {id: 1, name: 'FreeBSD'}
-      }
-    },
-    components: { DistroSummary, DistroNews, DistroPackages, DistroReviews }
-  }
+import DistroSummary from '@/components/distro/Summary'
+import DistroNews from '@/components/distro/News'
+import DistroPackages from '@/components/distro/Packages'
+import DistroReviews from '@/components/distro/Reviews'
+export default {
+  name: 'distro',
+  data () {
+    return {
+      distro: { id: 1, name: 'FreeBSD' }
+    }
+  },
+  components: { DistroSummary, DistroNews, DistroPackages, DistroReviews }
+}
 </script>
 <style>
 </style>

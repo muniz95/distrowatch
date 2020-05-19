@@ -14,20 +14,20 @@
 </template>
 
 <script>
-  export default {
-    name: 'announcement',
-    data () {
-      return {
-        announcements: []
-      }
-    },
-    created () {
-      this.announcements = [
-        {date: '2017-09-06', releaseType: 'Distribution', name: 'Parted Magic', version: '2017_09_05', text: 'The project\'s latest release, Parted Magic2017_09_95, ships with GParted0.29.0, version4.12.9 of the Linux kernel and packages to support both Btrfs and ZFS.', image: 'parted-magic.jpg'},
-        {date: '2017-09-06', releaseType: 'Distribution', name: 'Parted Magic', version: '2017_09_05', text: 'The project\'s latest release, Parted Magic2017_09_95, ships with GParted0.29.0, version4.12.9 of the Linux kernel and packages to support both Btrfs and ZFS.', image: 'parted-magic.jpg'}
-      ]
+export default {
+  name: 'announcement',
+  data () {
+    return {
+      announcements: []
     }
+  },
+  created () {
+    this.announcements = [
+      { date: '2017-09-06', releaseType: 'Distribution', name: 'Parted Magic', version: '2017_09_05', text: 'The project\'s latest release, Parted Magic2017_09_95, ships with GParted0.29.0, version4.12.9 of the Linux kernel and packages to support both Btrfs and ZFS.', image: 'parted-magic.jpg' },
+      { date: '2017-09-06', releaseType: 'Distribution', name: 'Parted Magic', version: '2017_09_05', text: 'The project\'s latest release, Parted Magic2017_09_95, ships with GParted0.29.0, version4.12.9 of the Linux kernel and packages to support both Btrfs and ZFS.', image: 'parted-magic.jpg' }
+    ]
   }
+}
 </script>
 
 <style>
@@ -38,4 +38,3 @@
     background-color: #fdffe3;
   }
 </style>
-

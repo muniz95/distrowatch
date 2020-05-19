@@ -41,10 +41,9 @@ export default {
   },
   created () {
     this.headlines = [
-      {id: 1, headlineType: 1, external: 0, date: '2017-09-30T18:25:43.511Z', title: 'The ChaosEsque Anthology project has released version117r', url: 'https://freshfoss.com/projects/chaosesque-anthology', image: 'fresh-foss.png'},
-      {id: 2, headlineType: 1, external: 1, date: '2017-09-30T18:25:43.511Z', title: 'The ChaosEsque Anthology project has released version117r', url: 'https://freshfoss.com/projects/chaosesque-anthology', image: 'fresh-foss.png'}
+      { id: 1, headlineType: 1, external: 0, date: '2017-09-30T18:25:43.511Z', title: 'The ChaosEsque Anthology project has released version117r', url: 'https://freshfoss.com/projects/chaosesque-anthology', image: 'fresh-foss.png' },
+      { id: 2, headlineType: 1, external: 1, date: '2017-09-30T18:25:43.511Z', title: 'The ChaosEsque Anthology project has released version117r', url: 'https://freshfoss.com/projects/chaosesque-anthology', image: 'fresh-foss.png' }
     ]
   }
 }
 </script>
-

@@ -288,7 +288,6 @@
                 <td>--</td>
                 <td>slackpkg search
                   <i>pkg</i>
-                  </i>
                 </td>
                 <td>slapt-get --search
                   <i>pkg</i>
@@ -1069,7 +1068,7 @@
             <thead>
               <tr>
                 <th>Task</th>
-                <th>packages<br>FreeBSD < 10.0</th>
+                <th>packages<br>FreeBSD &lt; 10.0</th>
                 <th>packages<br>FreeBSD 10.0+</th>
                 <th>ports<br>FreeBSD</th>
               </tr>
@@ -1230,9 +1229,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'package-management'
-  }
+export default {
+  name: 'package-management'
+}
 
 </script>
 <style>

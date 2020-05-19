@@ -78,15 +78,15 @@
   </div>
 </template>
 <script>
-  export default {
-    name: 'distro-packages',
-    methods: {
-      changeDistroVersion: (event) => {
-        console.log('====================================')
-        console.log(event.target.value)
-        console.log('====================================')
-      }
+export default {
+  name: 'distro-packages',
+  methods: {
+    changeDistroVersion: (event) => {
+      console.log('====================================')
+      console.log(event.target.value)
+      console.log('====================================')
     }
   }
+}
 
 </script>

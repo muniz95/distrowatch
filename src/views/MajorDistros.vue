@@ -41,42 +41,42 @@
   </div>
 </template>
 <script>
-  export default {
-    data () {
-      return {
-        distros: []
-      }
-    },
-    created () {
-      this.distros = [
-        {
-          title: 'Linux Mint',
-          url: '/',
-          text: 'Linux <a href="mint">Mint</a>, a distribution based on Ubuntu, was first launched in 2006 by Clement Lefebvre, a French-born IT specialist living in Ireland.',
-          pros: [
-            'Superb collection of "minty" tools developed in-house',
-            'hundreds of user-friendly enhancements',
-            'inclusion of multimedia codecs',
-            'open to users\' suggestions'
-          ],
-          cons: [
-            'The alternative "community" editions don\'t always include the latest features',
-            'the project does not issue security advisories'
-          ],
-          packageManagement: 'Advanced Package Tool (APT) with mintInstall using DEB packages (compatible with Ubuntu repositories)',
-          editions: 'A "Main" edition (with MATE and Cinnamon), "Community" editions (with KDE and Xfce), Linux Mint "Debian" edition (with MATE or Cinnamon)',
-          alternatives: [
-            {name: 'Ubuntu', url: '/'},
-            {name: 'elementary OS', url: '/'},
-            {name: 'Zorin OS', url: '/'},
-            {name: 'Lubuntu', url: '/'},
-            {name: 'Xubuntu', url: '/'},
-            {name: 'Peppermint OS', url: '/'}
-          ]
-        }
-      ]
+export default {
+  data () {
+    return {
+      distros: []
     }
+  },
+  created () {
+    this.distros = [
+      {
+        title: 'Linux Mint',
+        url: '/',
+        text: 'Linux <a href="mint">Mint</a>, a distribution based on Ubuntu, was first launched in 2006 by Clement Lefebvre, a French-born IT specialist living in Ireland.',
+        pros: [
+          'Superb collection of "minty" tools developed in-house',
+          'hundreds of user-friendly enhancements',
+          'inclusion of multimedia codecs',
+          'open to users\' suggestions'
+        ],
+        cons: [
+          'The alternative "community" editions don\'t always include the latest features',
+          'the project does not issue security advisories'
+        ],
+        packageManagement: 'Advanced Package Tool (APT) with mintInstall using DEB packages (compatible with Ubuntu repositories)',
+        editions: 'A "Main" edition (with MATE and Cinnamon), "Community" editions (with KDE and Xfce), Linux Mint "Debian" edition (with MATE or Cinnamon)',
+        alternatives: [
+          { name: 'Ubuntu', url: '/' },
+          { name: 'elementary OS', url: '/' },
+          { name: 'Zorin OS', url: '/' },
+          { name: 'Lubuntu', url: '/' },
+          { name: 'Xubuntu', url: '/' },
+          { name: 'Peppermint OS', url: '/' }
+        ]
+      }
+    ]
   }
+}
 </script>
 <style>
   .heading {

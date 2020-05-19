@@ -53,14 +53,14 @@
 </template>
 
 <script>
-  export default {
-    name: 'DwNavbar',
-    methods: {
-      mobile () {
-        alert('This is already the mobile site.')
-      }
+export default {
+  name: 'DwNavbar',
+  methods: {
+    mobile () {
+      alert('This is already the mobile site.')
     }
   }
+}
 </script>
 
 <style>
@@ -76,4 +76,3 @@
     height: 50px;
   }
 </style>
-
